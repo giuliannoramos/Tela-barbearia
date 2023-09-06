@@ -1,0 +1,95 @@
+.menu {
+  background: var(--color-3rd);
+  color: var(--color-2nd);
+  height: 100vh;
+  width: 15vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  outline: none;
+  font-family: roboto;
+  font-size: medium;
+}
+
+.menu h3 {
+  color: var(--color-1st);
+  margin-bottom: 0;
+}
+
+.menu .perfil {
+  padding: 1vw;
+  text-align: center;  
+}
+
+.menu .perfil img {
+  width: 7vw;
+  border-radius: 50%;
+  border: 4px solid;
+  box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.2);
+}
+
+.menu ul {
+  list-style: none;
+  padding: 1vw;
+  margin: 0;  
+}
+
+.menu ul li {
+  padding: 1vw;
+  font-size: 1vw;
+  transition: 0.3s linear;
+  cursor: pointer;
+}
+
+.menu span {
+  margin-left: 1vw;  
+}
+
+.menu ul li:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.menu__icones-suspensos {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__icones-suspensos i {
+  margin: 1em;
+  font-size: x-large;
+}
+
+.menu__item i {
+  font-size: large;
+}
+
+.menu ul li i.fa-angle-right {
+  position: absolute;
+  left: 11em;
+  font-size: large;
+  transform: translateY();
+}
+
+.menu ul li i.fa-angle-down {
+  position: absolute;
+  left: 11em;
+  font-size: large;
+  transform: translateY();
+}
+
+.menu__icones-suspensos i.fa-bell {
+  position: relative;
+  color: #0d9488;
+  font-size: x-large;
+}
+
+.menu__icones-suspensos i.fa-bell::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "3";
+  color: white;
+  font-size: xx-small;
+}

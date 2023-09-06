@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles/menu.css" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/table.css" />
+    <title>TelaBarbearia</title>
+  </head>
+  <body>
+    <nav class="menu">
+      <div class="menu__icones-suspensos">
+        <i class="fa-solid fa-bell"></i>
+        <i class="fa-solid fa-gear"></i>
+      </div>
+      <header class="perfil">
+        <img src="images/perfil-atualizado.jpg" />
+        <h3>Giulianno Ramos</h3>
+      </header>
+      <ul>
+        <li>
+          <i class="fa-solid fa-calendar"></i>
+          <span>Schedule</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-bell-concierge"></i>
+          <span>Orders</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-user"></i>
+          <span>Customers</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-briefcase"></i>
+          <span>Employees</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-scissors"></i>
+          <span>Services</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-paperclip"></i>
+          <span>Products</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </li>
+        <li>
+          <i class="fa-solid fa-parachute-box"></i>
+          <span>Suppliers</span>
+          <i class="fa-solid fa-angle-right"></i>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="container">
+      <div class="conteudo">
+        <h1>SERVICES</h1>
+        <div class="pesquisa">
+          <input
+            type="text"
+            class="pesquisa__botao"
+            placeholder="Search name"
+          />
+        </div>
+        <table class="tabela">
+          <thead>
+            <tr>
+              <th>
+                <input type="text" class="search-input" placeholder="NAME" />
+              </th>
+              <th>DESCRIPTION</th>
+              <th>CATEGORY</th>
+              <th>PRICE</th>
+            </tr>
+          </thead>
+          <tbody class="tabela__corpo">
+            <tr>
+              <td>Van Dyke</td>
+              <td>Bigode levemente curvado com cavanhaque pontudo</td>
+              <td>Cabelo</td>
+              <td>10.20</td>
+            </tr>
+            <tr>
+              <td>Garibaldi</td>
+              <td>Alto volume e bigode longo</td>
+              <td>Cabelo</td>
+              <td>10.20</td>
+            </tr>
+            <tr>
+              <td>Undercut</td>
+              <td>Corte lateral e traseiro completo</td>
+              <td>Cabelo</td>
+              <td>10.20</td>
+            </tr>
+            <tr>
+              <td>High Fade</td>
+              <td>Corte na zero sem transição até 5cm da nuca</td>
+              <td>Barba</td>
+              <td>10.20</td>
+            </tr>
+            <tr>
+              <td>Degradê</td>
+              <td>Corte partindo do zero até tamanho especificado</td>
+              <td>Cabelo</td>
+              <td>10.20</td>
+            </tr>
+          </tbody>
+        </table>
+        <footer class="pagina">
+          <a>1</a>
+          <a>2</a>
+          <a>3</a>
+          <a>4</a>
+          <a>5</a>
+        </footer>
+      </div>
+    </main>
+    <script src="scripts/menu.js"></script>
+    <script src="scripts/table.js"></script>
+  </body>
+</html>

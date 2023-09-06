@@ -1,0 +1,37 @@
+.tabela {
+  width: 70vw;  
+  border: 1px solid black;
+  font-family: Roboto;
+  border-radius: 1vw;
+  border-collapse: collapse;  
+}
+
+td,
+th,
+.search-input {
+  border-bottom: 1px solid black;
+  padding: 1vw;
+  text-align: center;
+}
+
+.tabela__corpo tr:hover {
+  background-color: #0275d8;
+  transition: 0.3s linear;
+  color: var(--color-1st);
+  cursor: pointer;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  background-color: var(--color-1st);
+  font-size: large;
+  cursor: pointer;
+  width: 4vw;
+}
+
+.search-input::placeholder {
+  font-weight: bold;
+  color: black;
+  font-size: large;  
+}

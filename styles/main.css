@@ -1,0 +1,78 @@
+:root {
+  --color-1st: #ffffff;
+  --color-2nd: #cdcdcd;
+  --color-3rd: #0f172a;
+}
+
+body {
+  background: var(--color-1st);
+  margin: 0;  
+  padding-left: 15vw;
+}
+
+main {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */  
+}
+
+.conteudo {
+  size: 80%;
+  background-color: var(--color-1st);
+}
+
+h1 {
+  color: #0275d8;
+  font-family: Roboto;
+  font-size: 4.3vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: left;
+}
+
+h2 {
+  display: flex;
+  padding: 30px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  color: #000;
+  font-family: Roboto;
+  font-size: 45px;
+  font-weight: 500;
+}
+
+.pesquisa__botao {
+  width: 68vw;
+  margin-bottom: 2vw;
+  border: 1px solid black;
+  padding: 1vw;
+  cursor: pointer;
+  background-color: #F6F6F6;  
+  font-family: roboto;
+  font-size: medium;
+  border-radius: 1vw;
+}
+
+.pagina {
+  margin-top: 5vw;
+  text-align: right;
+  margin-left: 10vw;
+  cursor: pointer;
+  font-size: larger;  
+}
+
+.pagina a {
+  border: 1px solid black;
+  padding: 1vw;
+  color: #0275d8;
+}
+
+.pagina a:hover {
+  background-color: #0275d8;
+  transition: 0.3s linear;
+  color: var(--color-1st); 
+}
+
